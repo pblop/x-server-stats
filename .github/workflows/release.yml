@@ -1,7 +1,9 @@
 name: Release
 
 on:
-  create
+  create:
+    branches:
+      - 'release*'
 
 env:
   CARGO_TERM_COLOR: always
